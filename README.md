@@ -26,4 +26,4 @@ ultralytics.checks()
 
 Make sure the path to the train_text_annoatations, image folder,etc is mentioned in the right way as per the home directory.
 
-2. 
+2. To extract the ground truth from ms coco dataset run 'final_coco_ground_truth_extraction.py' file
