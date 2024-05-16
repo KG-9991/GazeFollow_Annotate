@@ -30,7 +30,7 @@ Make sure the path to the train_text_annoatations, image folder,etc is mentioned
 
 Change the path as per local system in the following variable for 'final_coco_ground_truth_extraction.py' file - file_path, DATA_PATH, coco_val, coco_train
 
-Current state of the file 'final_coco_ground_truth_extraction.py' is set to extract ground truth for test subset of Gazefollow. To extract the ground truth for train subset change the labels_path to 'train_annotations_release.txt' and use the column_names and column_names_new in which the field 'in_out' is present (Comment the current column_names and column_names_new initialization and uncomment the below second initialization). For train annotations change the output file command as per from 'df_final.to_csv('test_annotations_release_new.txt', index=False)' to 'df_final.to_csv('train_annotations_release_new.txt', index=False)'
+Current state of the file 'final_coco_ground_truth_extraction.py' is set to extract ground truth for test subset of Gazefollow. To extract the ground truth for train subset change the labels_path to 'train_annotations_release.txt' and use the column_names and column_names_new in which the field 'in_out' is present (Comment the current column_names and column_names_new initialization and uncomment the below second initialization). For train annotations change the output file command as per from 'df_final.to_csv('test_annotations_release_new.txt', index=False)' to 'df_final.to_csv('train_annotations_release_new.txt', index=False)'. coco annotation link - http://images.cocodataset.org/annotations/annotations_trainval2014.zip
 
 3. Run the file 'sam_det_evaluation.py' to get the precision of the newly annotated data against the ms coco grount truth
 
