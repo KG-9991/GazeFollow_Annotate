@@ -24,4 +24,6 @@ import ultralytics
 
 ultralytics.checks()
 
+Make sure the path to the train_text_annoatations, image folder,etc is mentioned in the right way as per the home directory.
+
 2. 
