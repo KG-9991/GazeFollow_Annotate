@@ -80,8 +80,8 @@ df = pd.read_csv(train_file_path, header=None, names=column_names_train,sep=',',
 for index, row in tqdm(df.iterrows(),total=df.shape[0]):
   """if itr < 5001:
     continue"""
-  if index <= 5001:
-    continue
+  """if index <= 5001:
+    continue"""
   
   image_path = "./"+row["image_path"]
   gaze_label = np.array([1])

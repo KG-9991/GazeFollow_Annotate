@@ -1,7 +1,7 @@
 # GazeFollow_Annotate
 A repository to create object level annotations for GazeFollow Dataset
 
-extract_annotations contains the code for extracting the gazefollow annotations using SAM model.
+1. extract_annotations contains the code for extracting the gazefollow annotations using SAM model.
 
 It requires follwing packages to be installed in the virtual env. Please use the following commands to download the packages:
 
@@ -17,3 +17,5 @@ It requires follwing packages to be installed in the virtual env. Please use the
 !pip install ultralytics
 import ultralytics
 ultralytics.checks()
+
+2. 
